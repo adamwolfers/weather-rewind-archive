@@ -10,7 +10,7 @@ function App() {
   const [lon, setLon] = useState(0)
   const [date, setDate] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SubmitEvent) => {
     e.preventDefault()
     fetchWeather(lat, lon, date)
     .then(setWeather)
