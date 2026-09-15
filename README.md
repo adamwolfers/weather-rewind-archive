@@ -1,3 +1,8 @@
+> **Archived.** This was the original hand-written build (React + TypeScript
+> frontend, FastAPI + Postgres backend). Superseded by a full rewrite at
+> [weather-rewind](https://github.com/adamwolfers/weather-rewind), rebuilt in
+> TypeScript end to end as a deliberate practice project.
+
 # Weather Rewind
 
 ## Project Overview
